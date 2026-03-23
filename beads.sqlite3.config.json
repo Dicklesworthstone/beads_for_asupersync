@@ -1,0 +1,154 @@
+{
+  "chunked": true,
+  "chunk_count": 29,
+  "chunk_size": 1048576,
+  "total_size": 29769728,
+  "hash": "3084855ebd965bd0f3de0e222d58a087e1eeaad64b8bf620e806456d15598e17",
+  "chunks": [
+    {
+      "path": "chunks/00000.bin",
+      "hash": "92fd78c9be997df63d6c278b5e0436f2239fe9099aed03dd6b81b074b7da0aee",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00001.bin",
+      "hash": "62fee330c2cd7c1df72bf135649618d0edee6b9ea0b4d88bdc24ce7b71dceed5",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00002.bin",
+      "hash": "a484c187ce8cf1f3a791add26e4a78fcd5e4d1e5bc1760235b5b0074f122f505",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00003.bin",
+      "hash": "3b0ad336018f25650ec45ecf89f15a28d7f820be1b74a5689fd1abab66c122fa",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00004.bin",
+      "hash": "4cfc113d59c2cd5fd51beca1754bc6a3c13984258f8dd238447080919f9d0ef4",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00005.bin",
+      "hash": "a9bdebc666365f0b17ac9b4b00c002f9168fb2dfbe9f7a39ce1ed515e979835a",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00006.bin",
+      "hash": "b28a825bb6f0e53d8451a038bc58971d371480767d5794974c006ae83c8b169b",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00007.bin",
+      "hash": "31c41d8bbbf04d8c1c435858b1a7c6b025afb40224a2a3043a8e31a83974a249",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00008.bin",
+      "hash": "7749c3ef34db4e36dd802f9436959de423facaadad9bbaa7195c817827510ed4",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00009.bin",
+      "hash": "b16acba2b36c6e2155f9be0778b3dd4f34bb0bb0d76ddd26f4b892457330b27f",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00010.bin",
+      "hash": "151748f99a2a75b907c571589437a691330df1e20ba0677d752ae13c61823aaa",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00011.bin",
+      "hash": "5df397476fab70cbd5880022fe123b94cb1b530159de544ad37d498a23bad43b",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00012.bin",
+      "hash": "3d71bf8d6a4dd0dcd5e017c7277552618038b50d8caac0f8059528f577412e13",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00013.bin",
+      "hash": "d5cc3adc70ff2063f5d226c486f655822a5f31dc7dced9f15ab352e4a0066f89",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00014.bin",
+      "hash": "843d8fa5161563acf7c56b6b16d50dacdcb39a3da678a7b1cbca05e4fd0076f5",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00015.bin",
+      "hash": "96757db45ced0b7514a5de765e45e9da0f2cb3eca68c47b13b0b9cbe25e053ba",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00016.bin",
+      "hash": "f00b8e91651f0b3870bd33e2f0e555e880e40bb1c42774fe778d5871e5dfffed",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00017.bin",
+      "hash": "5c808a88859f1dd6093d291143d12b89ccad7fd93dff9f6bf630235351c6c94d",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00018.bin",
+      "hash": "7698a09a83e21c33cef0680363fda3d4de8ed87322ee2331a4e20c4e8a826a23",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00019.bin",
+      "hash": "9b76fd25294d3b5f29ce9a7adc1939cf397cc274abf6bf2cc61cec1f86584832",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00020.bin",
+      "hash": "11d3ca0dfd0b0c05e22fe103830c59090709891b83abb8ce0af2567e582b5dfb",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00021.bin",
+      "hash": "20080eb1a46616d1a3dc96a6f2a9bf7e95223df7e676cb3aab1c11ef0a6cac37",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00022.bin",
+      "hash": "efbcbaec8e2a2e3cd3737bdb670fc65e92f3b738d17fb1e6cf25080df72d2ce3",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00023.bin",
+      "hash": "e1a76716e7531e8ddb3af66cde5c9a7186765f921298ddd1ad11bf6181c182b3",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00024.bin",
+      "hash": "d900150c5d7033cefb380c36440d1fa02a88f5aed51de24e45e75f324d9675be",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00025.bin",
+      "hash": "e78407274b72b084fa4dbf4876eb8813d6296d4162dbdd5b6d8a998be0d69557",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00026.bin",
+      "hash": "e4c70d2570de125e0caac5a5f3d542a7b603a14d33d8db5ffae477251897315d",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00027.bin",
+      "hash": "32eff0095dc26cb4331b4e1ab37e6d98b1da5f7f042cde6e7c05f46f7aa02f19",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00028.bin",
+      "hash": "76c8438d069b2778b9cf5b74a77f838fb2f933069693fb816076907d6f49c490",
+      "size": 409600
+    }
+  ]
+}

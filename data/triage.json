@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-22T22:21:20.4897333-04:00",
+    "phase2_ready": true,
+    "issue_count": 5947,
+    "compute_time_ms": 9
+  },
+  "quick_ref": {
+    "open_count": 135,
+    "actionable_count": 35,
+    "blocked_count": 100,
+    "in_progress_count": 58,
+    "top_picks": [
+      {
+        "id": "asupersync-2jhnk.6",
+        "title": "[WASM][Execution Ladder] Ship host-adaptive lane selection and graceful no-throw fallback",
+        "score": 0.33067947256026264,
+        "reasons": [
+          "🎯 Completing this unblocks 6 downstream issues (asupersync-2jhnk.3, asupersync-2jhnk.5.1, +4 more)",
+          "🚧 In progress - already being worked",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 6
+      },
+      {
+        "id": "asupersync-2a6k9.1.4",
+        "title": "Define verification taxonomy, minimum unit/e2e coverage, and structured logging standard",
+        "score": 0.22265712311530794,
+        "reasons": [
+          "🔓 Unblocks 2 item(s): asupersync-2a6k9.6.6, asupersync-2a6k9.8.5",
+          "🚧 In progress - already being worked",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 2
+      },
+      {
+        "id": "asupersync-2c9j7",
+        "title": "[RAPTORQ-RFC6330] Full Conformance, Correctness Closure, and Optimization Program",
+        "score": 0.21157833722982342,
+        "reasons": [
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P0) - prioritize this work"
+        ],
+        "unblocks": 0
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "asupersync-2jhnk.6",
+      "title": "[WASM][Execution Ladder] Ship host-adaptive lane selection and graceful no-throw fallback",
+      "type": "feature",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "browser",
+        "execution-ladder",
+        "fallback",
+        "parallelism",
+        "wasm"
+      ],
+      "score": 0.33067947256026264,
+      "breakdown": {
+        "pagerank": 0.029181956227173237,
+        "betweenness": 0.009257218426272867,
+        "blocker_ratio": 0.02736842105263158,
+        "staleness": 0.0015799366337831404,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.06775,
+        "urgency": 0.029939794413783194,
+        "risk": 0.01803620547530257,
+        "pagerank_norm": 0.13264525557806017,
+        "betweenness_norm": 0.04628609213136434,
+        "blocker_ratio_norm": 0.21052631578947367,
+        "staleness_norm": 0.03159873267566281,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.6775,
+        "urgency_norm": 0.29939794413783194,
+        "risk_norm": 0.1803620547530257,
+        "time_to_impact_explanation": "Deep in critical path (depth 7), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.1,
+          "activity_churn": 0.43454018251008564,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.1803620547530257,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🎯 Completing this unblocks 6 downstream issues (asupersync-2jhnk.3, asupersync-2jhnk.5.1, +4 more)",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-2jhnk.3",
+        "asupersync-2jhnk.5.1",
+        "asupersync-2jhnk.5.2",
+        "asupersync-2jhnk.5.3",
+        "asupersync-n6kwt.6",
+        "asupersync-n6kwt.7"
+      ]
+    },
+    {
+      "id": "asupersync-2a6k9.1.4",
+      "title": "Define verification taxonomy, minimum unit/e2e coverage, and structured logging standard",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "differential",
+        "logging",
+        "policy",
+        "testing",
+        "verification"
+      ],
+      "score": 0.22265712311530794,
+      "breakdown": {
+        "pagerank": 0.018286604548243383,
+        "betweenness": 0,
+        "blocker_ratio": 0.037631578947368426,
+        "staleness": 0.006709560006669619,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.083625,
+        "urgency": 0.022762044650174174,
+        "risk": 0.0026382448694129007,
+        "pagerank_norm": 0.08312092976474264,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.2894736842105263,
+        "staleness_norm": 0.13419120013339236,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.8362499999999999,
+        "urgency_norm": 0.22762044650174174,
+        "risk_norm": 0.026382448694129004,
+        "time_to_impact_explanation": "Deep in critical path (depth 9), explicit estimate 150m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.021274828980430004,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.026382448694129004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): asupersync-2a6k9.6.6, asupersync-2a6k9.8.5",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-2a6k9.6.6",
+        "asupersync-2a6k9.8.5"
+      ]
+    },
+    {
+      "id": "asupersync-1ky3w.1",
+      "title": "[WASM][QA+DX] Extend the evidence matrix and CI lanes for every new browser vNext surface",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "browser",
+        "ci",
+        "qa",
+        "release",
+        "testing",
+        "vnext",
+        "wasm"
+      ],
+      "score": 0.2206918855325384,
+      "breakdown": {
+        "pagerank": 0.006497911081379504,
+        "betweenness": 0.13191536257438838,
+        "blocker_ratio": 0.006842105263157895,
+        "staleness": 0.010581948935803859,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03975,
+        "urgency": 0.033648545661543364,
+        "risk": 0.011038248673067552,
+        "pagerank_norm": 0.029535959460815928,
+        "betweenness_norm": 0.6595768128719418,
+        "blocker_ratio_norm": 0.05263157894736842,
+        "staleness_norm": 0.21163897871607718,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.39749999999999996,
+        "urgency_norm": 0.3364854566154336,
+        "risk_norm": 0.11038248673067551,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.2258769757263128,
+          "activity_churn": 0.07539798004260556,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.11038248673067551,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on asupersync-2jhnk.5 first to unblock this",
+      "reasons": [
+        "🔀 Critical path bottleneck (betweenness: 66%)",
+        "🚧 In progress - already being worked",
+        "⏳ Blocked by 4 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "asupersync-2jhnk.5",
+        "asupersync-4l9iw.8",
+        "asupersync-n6kwt.6.3",
+        "asupersync-n6kwt.7.3"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.2",
+      "title": "[FABRIC][P1] Core Subject Fabric",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "fabric",
+        "routing",
+        "subject"
+      ],
+      "score": 0.21840040527321428,
+      "breakdown": {
+        "pagerank": 0.04146669320719732,
+        "betweenness": 0,
+        "blocker_ratio": 0.010263157894736842,
+        "staleness": 0.008059145670962133,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.07475,
+        "urgency": 0.028198316317069108,
+        "risk": 0.004013193501552471,
+        "pagerank_norm": 0.18848496912362417,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.07894736842105263,
+        "staleness_norm": 0.16118291341924265,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.7474999999999999,
+        "urgency_norm": 0.28198316317069105,
+        "risk_norm": 0.040131935015524714,
+        "time_to_impact_explanation": "Deep in critical path (depth 8), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.06710645005174905,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.040131935015524714,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on asupersync-8w83i.1 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): asupersync-8w83i.3",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by asupersync-8w83i.1 - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-8w83i.3"
+      ],
+      "blocked_by": [
+        "asupersync-8w83i.1"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.3",
+      "title": "[FABRIC][P2] Static Capability Layer \u0026 Cx Integration",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "capability",
+        "fabric",
+        "typestate"
+      ],
+      "score": 0.21557462801594762,
+      "breakdown": {
+        "pagerank": 0.030904332690718933,
+        "betweenness": 0,
+        "blocker_ratio": 0.006842105263157895,
+        "staleness": 0.00805908579479944,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.06775,
+        "urgency": 0.02819771248366684,
+        "risk": 0.004012934455587048,
+        "pagerank_norm": 0.14047423950326787,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.05263157894736842,
+        "staleness_norm": 0.16118171589598881,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.6775,
+        "urgency_norm": 0.28197712483666837,
+        "risk_norm": 0.04012934455587048,
+        "time_to_impact_explanation": "Deep in critical path (depth 7), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.06709781518623492,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.04012934455587048,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on asupersync-8w83i.2 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): asupersync-8w83i.4, asupersync-8w83i.5",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by asupersync-8w83i.2 - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-8w83i.4",
+        "asupersync-8w83i.5"
+      ],
+      "blocked_by": [
+        "asupersync-8w83i.2"
+      ]
+    },
+    {
+      "id": "asupersync-2c9j7",
+      "title": "[RAPTORQ-RFC6330] Full Conformance, Correctness Closure, and Optimization Program",
+      "type": "epic",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "correctness",
+        "determinism",
+        "performance",
+        "raptorq",
+        "rfc6330"
+      ],
+      "score": 0.21157833722982342,
+      "breakdown": {
+        "pagerank": 0.00658903284516424,
+        "betweenness": 0,
+        "blocker_ratio": 0.0034210526315789475,
+        "staleness": 0.0035977400480883097,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.059375000000000004,
+        "urgency": 0.04972006492251879,
+        "risk": 0.026212800411265516,
+        "pagerank_norm": 0.02995014929620109,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.02631578947368421,
+        "staleness_norm": 0.0719548009617662,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.59375,
+        "urgency_norm": 0.4972006492251879,
+        "risk_norm": 0.26212800411265513,
+        "time_to_impact_explanation": "Deep in critical path (depth 5), explicit estimate 90m",
+        "urgency_explanation": "aging (36 days)",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.6737600137088504,
+          "cross_repo_risk": 0,
+          "status_risk": 0.3,
+          "composite_risk": 0.26212800411265513,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P0) - prioritize this work"
+      ]
+    },
+    {
+      "id": "asupersync-2ncba",
+      "title": "[RAPTORQ-RFC6330][Track-E] GF(256) Kernel Acceleration (Extreme Optimization)",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "gf256",
+        "performance",
+        "raptorq",
+        "simd"
+      ],
+      "score": 0.20627547188777606,
+      "breakdown": {
+        "pagerank": 0.0058619529096656615,
+        "betweenness": 0,
+        "blocker_ratio": 0.0034210526315789475,
+        "staleness": 0.0035977392780946766,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.0435,
+        "urgency": 0.049719988304619524,
+        "risk": 0.0321645279204836,
+        "pagerank_norm": 0.02664524049848028,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.02631578947368421,
+        "staleness_norm": 0.07195478556189353,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.43499999999999994,
+        "urgency_norm": 0.4971998830461952,
+        "risk_norm": 0.321645279204836,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), explicit estimate 120m",
+        "urgency_explanation": "aging (36 days)",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.8721509306827866,
+          "cross_repo_risk": 0,
+          "status_risk": 0.3,
+          "composite_risk": 0.321645279204836,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): asupersync-2cyx5",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-2cyx5"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.13.1",
+      "title": "[FABRIC][P12.1] SubjectCell type system and placement",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "brokerless",
+        "fabric",
+        "subject-cell"
+      ],
+      "score": 0.1991310057958049,
+      "breakdown": {
+        "pagerank": 0.018247371307386056,
+        "betweenness": 0,
+        "blocker_ratio": 0.017105263157894738,
+        "staleness": 0.007110761315509028,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04675,
+        "urgency": 0.028125779451226292,
+        "risk": 0.02070511876199087,
+        "pagerank_norm": 0.0829425968517548,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.13157894736842105,
+        "staleness_norm": 0.14221522631018055,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.46749999999999997,
+        "urgency_norm": 0.2812577945122629,
+        "risk_norm": 0.2070511876199087,
+        "time_to_impact_explanation": "Deep in critical path (depth 4), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.6235039587330291,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.2070511876199087,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): asupersync-8w83i.13.3, asupersync-8w83i.13.7",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-8w83i.13.3",
+        "asupersync-8w83i.13.7"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.1",
+      "title": "[FABRIC][P0] Foundation Types \u0026 FabricIR",
+      "type": "epic",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "fabric",
+        "foundation",
+        "ir"
+      ],
+      "score": 0.19654162138321601,
+      "breakdown": {
+        "pagerank": 0.040605604390286626,
+        "betweenness": 0,
+        "blocker_ratio": 0.006842105263157895,
+        "staleness": 0.005591405215723978,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.08175,
+        "urgency": 0.028198921606287054,
+        "risk": 0.0070714226434244855,
+        "pagerank_norm": 0.1845709290467574,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.05263157894736842,
+        "staleness_norm": 0.11182810431447957,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.8175,
+        "urgency_norm": 0.28198921606287053,
+        "risk_norm": 0.07071422643424485,
+        "time_to_impact_explanation": "Deep in critical path (depth 9), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.16904742144748286,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.07071422643424485,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): asupersync-8w83i.2",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-8w83i.2"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.6.1",
+      "title": "[FABRIC][P5.1] Region-owned stream state machine",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": [
+        "fabric",
+        "region",
+        "streams"
+      ],
+      "score": 0.18761613298748692,
+      "breakdown": {
+        "pagerank": 0.017544328970153917,
+        "betweenness": 0,
+        "blocker_ratio": 0.01368421052631579,
+        "staleness": 0.006700678294712114,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04675,
+        "urgency": 0.0281380599977209,
+        "risk": 0.008777197907507202,
+        "pagerank_norm": 0.07974694986433599,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.10526315789473684,
+        "staleness_norm": 0.13401356589424226,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.46749999999999997,
+        "urgency_norm": 0.281380599977209,
+        "risk_norm": 0.08777197907507202,
+        "time_to_impact_explanation": "Deep in critical path (depth 4), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.22590659691690673,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.08777197907507202,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): asupersync-8w83i.6.2, asupersync-8w83i.6.3",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "asupersync-8w83i.6.2",
+        "asupersync-8w83i.6.3"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "asupersync-2jhnk.6",
+      "title": "[WASM][Execution Ladder] Ship host-adaptive lane selection and graceful no-throw fallback",
+      "score": 1.4229419688230418,
+      "reason": "Unblocks 6 items, high priority",
+      "unblocks_ids": [
+        "asupersync-2jhnk.3",
+        "asupersync-2jhnk.5.1",
+        "asupersync-2jhnk.5.2",
+        "asupersync-2jhnk.5.3",
+        "asupersync-n6kwt.6",
+        "asupersync-n6kwt.7"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.13",
+      "title": "[FABRIC][P12] Brokerless Peer-Cooperative Fabric Core",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "asupersync-8w83i.14",
+        "asupersync-8w83i.15"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.13.1",
+      "title": "[FABRIC][P12.1] SubjectCell type system and placement",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "asupersync-8w83i.13.3",
+        "asupersync-8w83i.13.7"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.3",
+      "title": "[FABRIC][P2] Static Capability Layer \u0026 Cx Integration",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "asupersync-8w83i.4",
+        "asupersync-8w83i.5"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.6.1",
+      "title": "[FABRIC][P5.1] Region-owned stream state machine",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "asupersync-8w83i.6.2",
+        "asupersync-8w83i.6.3"
+      ]
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "asupersync-2jhnk.6",
+      "title": "[WASM][Execution Ladder] Ship host-adaptive lane selection and graceful no-throw fallback",
+      "unblocks_count": 6,
+      "unblocks_ids": [
+        "asupersync-2jhnk.3",
+        "asupersync-2jhnk.5.1",
+        "asupersync-2jhnk.5.2",
+        "asupersync-2jhnk.5.3",
+        "asupersync-n6kwt.6",
+        "asupersync-n6kwt.7"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "asupersync-2a6k9.1.4",
+      "title": "Define verification taxonomy, minimum unit/e2e coverage, and structured logging standard",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "asupersync-2a6k9.6.6",
+        "asupersync-2a6k9.8.5"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "asupersync-8w83i.13",
+      "title": "[FABRIC][P12] Brokerless Peer-Cooperative Fabric Core",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "asupersync-8w83i.14",
+        "asupersync-8w83i.15"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "asupersync-8w83i.6",
+        "asupersync-8w83i.7",
+        "asupersync-8w83i.8"
+      ]
+    },
+    {
+      "id": "asupersync-8w83i.13.1",
+      "title": "[FABRIC][P12.1] SubjectCell type system and placement",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "asupersync-8w83i.13.3",
+        "asupersync-8w83i.13.7"
+      ],
+      "actionable": false
+    },
+    {
+      "id": "asupersync-8w83i.3",
+      "title": "[FABRIC][P2] Static Capability Layer \u0026 Cx Integration",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "asupersync-8w83i.4",
+        "asupersync-8w83i.5"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "asupersync-8w83i.2"
+      ]
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 5947,
+      "open": 135,
+      "closed": 5812,
+      "blocked": 100,
+      "actionable": 35,
+      "by_status": {
+        "blocked": 1,
+        "closed": 5737,
+        "in_progress": 58,
+        "open": 76,
+        "tombstone": 75
+      },
+      "by_type": {
+        "bug": 754,
+        "epic": 403,
+        "feature": 187,
+        "task": 4603
+      },
+      "by_priority": {
+        "0": 630,
+        "1": 2439,
+        "2": 2524,
+        "3": 316,
+        "4": 38
+      }
+    },
+    "graph": {
+      "node_count": 5947,
+      "edge_count": 5044,
+      "density": 0.00014264358148282697,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 225,
+      "closed_last_30_days": 1893,
+      "avg_days_to_close": 1.7916355505445405,
+      "weekly": [
+        {
+          "week_start": "2026-03-23T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-03-16T00:00:00Z",
+          "closed": 225
+        },
+        {
+          "week_start": "2026-03-09T00:00:00Z",
+          "closed": 492
+        },
+        {
+          "week_start": "2026-03-02T00:00:00Z",
+          "closed": 608
+        },
+        {
+          "week_start": "2026-02-23T00:00:00Z",
+          "closed": 481
+        },
+        {
+          "week_start": "2026-02-16T00:00:00Z",
+          "closed": 795
+        },
+        {
+          "week_start": "2026-02-09T00:00:00Z",
+          "closed": 588
+        },
+        {
+          "week_start": "2026-02-02T00:00:00Z",
+          "closed": 1223
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 br update asupersync-2jhnk.6 --status in_progress --json",
+    "show_top": "CI=1 br show asupersync-2jhnk.6 --json",
+    "list_ready": "CI=1 br ready --json",
+    "list_blocked": "CI=1 br blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}
